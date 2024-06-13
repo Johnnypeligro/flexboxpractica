@@ -1,0 +1,41 @@
+
+
+body{
+    background-image: url(/img/fondo-flex.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-size: 100vw 100vh;
+    height: 100vh;
+}
+
+.contenedorp{
+    position: absolute;
+    bottom: 0;
+
+}
+
+.cj1{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.cj2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100vw;
+    
+}
+
+.cj3{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.imgs{
+    width: 160px;
+    height: 150px;
+}
